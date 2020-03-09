@@ -1,0 +1,215 @@
+/* Mobile */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    left:0;
+    right:0;
+    margin:0;
+}
+
+p {
+    margin:7px;
+}
+
+
+
+#wrapper {
+    position: relative;
+    min-height: 100vh;
+    
+    
+}
+
+
+
+/* blog elements */ 
+.blogpost {
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    
+    border-radius: 5px;
+}
+
+.tag { 
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px; 
+    padding: 3px;
+    
+}
+
+
+.one-column-box {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    
+    
+    
+
+}
+
+.header-main {
+    background-image: url('images/city.jpg') ;
+    background-color: rgb(43, 43, 43);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 500px;
+    max-height: 45%;
+    
+    
+    
+}
+
+footer {
+    background-color: black;
+    width:100%;
+}
+#logo {
+    background-image: url('images/logo2.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+   float: right;
+    width:40px;
+    height:40px;
+}
+
+.prev-bar {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:25%;
+    height:auto;
+    margin: 5px;    
+    min-height:10px;
+    background-size: contain;
+  }
+
+
+.intro-section {
+    background-image: 
+    
+    linear-gradient(to right, rgba(44,44,44,.5), rgba(44,44,44,.5)),   url('images/circuit-board.jpg');
+
+    background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+    
+    padding: 10px;
+    height:650px;
+    
+    
+}
+
+
+.text-centered {
+    margin:auto;
+    text-align: center;
+    padding:5px;
+
+}
+
+
+.topnav {
+    
+    left:0;
+    right:0;
+    background: linear-gradient(rgba(0,0,0,1), 70%, rgba(0,0,0,0));
+  }
+
+  .hamburger {
+      font-size: 35px;
+      color:white;
+      padding:10px;
+  }
+  
+  .desktop-only {
+      display: none;
+  }
+  
+
+@media only screen and (min-width: 600px) {
+    /* Tablet */
+
+
+  }
+
+  @media only screen and (min-width: 790px) {
+      /* Desktop */
+
+      .desktop-hidden {
+        display: none; 
+    }
+    .desktop-only {
+        display: block;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 19px;
+    
+        
+      }
+      
+      .topnav a:hover {
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+      }
+      
+     
+        /*header on the homepage- adds borders for large screens*/
+    .header-main {
+        background-image: url('images/city.jpg') ;
+        background-color: rgb(43, 43, 43);
+        background-position: 50% 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        min-height: 400px;
+        max-height: 45%;
+         
+        
+    }
+
+    /* put logo image on left side of screen */
+    #logo {
+       float: left;
+        width:50px;
+        height:50px;
+        
+        
+    }
+
+    .icon {  
+        width:5%;  
+      }
+
+    
+}
+
